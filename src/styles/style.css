@@ -1,0 +1,26 @@
+@import "./roboto.css";
+/*Ставить ~ перед пакетом, который хотите подгрузить и node_module*/
+@import "~normalize.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 200px;
+  margin: 120px auto;
+}
+
+h1 {
+  color: red;
+}
+
+.logo {
+  background-image: url("../assets/insole.png");
+  background-size: cover;
+  width: 120px;
+  height: 120px;
+  margin: 120px auto;
+}
